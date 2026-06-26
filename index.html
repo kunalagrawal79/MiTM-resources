@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MITM Math Resource Atlas</title>
+    <meta
+      name="description"
+      content="A directory of camps, competitions, schools, books, videos, and learning programs primarily focused on math."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231f6a53'/%3E%3Cpath d='M18 46V18h6l8 18 8-18h6v28h-5V28l-7 15h-4l-7-15v18z' fill='%23fff7ef'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">MITM Resource Project</p>
+          <h1>Math Resource Atlas</h1>
+          <p class="lede">
+            A directory of camps, competitions, schools, books, videos, and
+            learning programs primarily focused on math.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#directory">
+              Browse Resources
+            </a>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <p class="panel-note">
+            Tag filters use AND logic, so combining
+            <code>camps</code> and <code>middle school</code> narrows the list
+            to resources matching both.
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <section id="directory" class="directory-section">
+          <div class="section-heading directory-heading">
+            <div>
+              <p class="eyebrow">Searchable Directory</p>
+              <h2>Filter by type, age band, or format</h2>
+            </div>
+            <button id="clear-filters" class="button button-tertiary" type="button">
+              Clear filters
+            </button>
+          </div>
+
+          <div class="control-panel">
+            <label class="search-wrap" for="search-input">
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input
+                id="search-input"
+                type="search"
+                placeholder="Search by title, topic, or age band..."
+                autocomplete="off"
+              />
+            </label>
+
+            <div class="filter-columns">
+              <div class="filter-group">
+                <h3>Resource Types</h3>
+                <div id="type-filters" class="chip-row"></div>
+              </div>
+              <div class="filter-group">
+                <h3>Age Levels</h3>
+                <div id="age-filters" class="chip-row"></div>
+              </div>
+              <div class="filter-group">
+                <h3>Format & Focus</h3>
+                <div id="focus-filters" class="chip-row"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="results-bar">
+            <p id="results-copy">Loading resources...</p>
+          </div>
+
+          <div id="resource-grid" class="resource-grid" aria-live="polite"></div>
+          <div id="empty-state" class="empty-state" hidden>
+            <h3>No resources match the current filters.</h3>
+            <p>Try clearing a tag or broadening the search terms.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script defer src="./resources.js"></script>
+    <script defer src="./app.js"></script>
+  </body>
+</html>
