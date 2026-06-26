@@ -37,7 +37,7 @@ resources: [
     title: "Epsilon Camp",
     category: "camps",
     description:
-      "Residential camp for mathematically advanced younger students.",
+      "Ages 7-12 residential camp for mathematically advanced younger students that moves among host campuses from year to year.",
     link: "https://epsiloncamp.org/",
     tags: ["camps", "elementary school", "middle school", "residential", "community"],
   },
@@ -45,17 +45,17 @@ resources: [
     title: "G2 Math Program",
     category: "camps",
     description:
-      "A math summer program for younger students focused on enrichment, problem solving, and mathematical community.",
+      "A summer olympiad-math program in Cambridge, Massachusetts, focused on proof-based problem solving and mathematical community for high school students.",
     link: "https://www.g2mathprogram.org/",
-    tags: ["camps", "elementary school", "middle school", "community"],
+    tags: ["camps", "high school", "community"],
   },
   {
     title: "Campersand",
     category: "camps",
     description:
-      "A New Mexico day camp with flexible, choose-your-own-adventure programming.",
+      "A residential program at the University of New Mexico in Albuquerque with flexible, choose-your-own-adventure math and computer science programming.",
     link: "https://campersand.org/",
-    tags: ["camps", "elementary school", "middle school", "high school", "community"],
+    tags: ["camps", "elementary school", "middle school", "high school", "residential", "community"],
   },
   {
     title: "Math in the Mountains",
@@ -69,7 +69,7 @@ resources: [
     title: "MathPath",
     category: "camps",
     description:
-      "A well-known residential program where students choose from a range of rich math topics.",
+      "A well-known residential middle-school program that moves to a different college campus from year to year and lets students choose from a range of rich math topics.",
     link: "https://www.mathpath.org/",
     tags: ["camps", "middle school", "residential", "community"],
   },
@@ -77,7 +77,7 @@ resources: [
     title: "Canada/USA Mathcamp",
     category: "camps",
     description:
-      "A highly selective residential summer program for older students ready for deep immersion.",
+      "A highly selective residential summer program for older students that rotates among college campuses from year to year.",
     link: "https://www.mathcamp.org/",
     tags: ["camps", "high school", "residential", "community"],
   },
@@ -85,7 +85,7 @@ resources: [
     title: "PROMYS",
     category: "camps",
     description:
-      "Boston University's long-running intensive summer program, especially known for number theory.",
+      "Boston University's long-running intensive summer program in Boston, Massachusetts, especially known for number theory.",
     link: "https://promys.org/",
     tags: ["camps", "high school", "residential", "proof-based", "community"],
   },
@@ -93,7 +93,7 @@ resources: [
     title: "Ross Mathematics Program",
     category: "camps",
     description:
-      "A deep, single-subject residential summer program for older high school students.",
+      "A deep, single-subject residential summer program for older high school students, with U.S. campus sites that can vary by year.",
     link: "https://rossprogram.org/",
     tags: ["camps", "high school", "residential", "proof-based", "community"],
   },
@@ -101,7 +101,7 @@ resources: [
     title: "MathILy",
     category: "camps",
     description:
-      "A proof-oriented summer program that emphasizes mathematical expression and intellectual style.",
+      "A proof-oriented summer program at Bryn Mawr College near Philadelphia that emphasizes mathematical expression and intellectual style.",
     link: "https://mathily.org/",
     tags: ["camps", "high school", "residential", "proof-based", "community"],
   },
@@ -109,9 +109,9 @@ resources: [
     title: "AwesomeMath Summer Program",
     category: "camps",
     description:
-      "A residential program with a strong emphasis on competition training and olympiad-style preparation.",
+      "A three-week virtual program with a strong emphasis on competition training and olympiad-style preparation.",
     link: "https://www.awesomemath.org/",
-    tags: ["camps", "middle school", "high school", "residential", "competition-prep"],
+    tags: ["camps", "middle school", "high school", "online", "competition-prep"],
   },
   {
     title: "BEAM",
@@ -125,15 +125,15 @@ resources: [
     title: "SUMaC",
     category: "camps",
     description:
-      "Stanford's University Mathematics Camp for older high school students seeking deep summer study.",
+      "Stanford's University Mathematics Camp for older high school students, with both online and residential options on Stanford's campus in California.",
     link: "https://sumac.spcs.stanford.edu/",
-    tags: ["camps", "high school", "residential", "community"],
+    tags: ["camps", "high school", "online", "residential", "community"],
   },
   {
     title: "HCSSiM",
     category: "camps",
     description:
-      "Hampshire College Summer Studies in Mathematics, a residential immersion program for older students.",
+      "Hampshire College Summer Studies in Mathematics, a residential immersion program at Hampshire College in Massachusetts for older students.",
     link: "https://hcssim.org/",
     tags: ["camps", "high school", "residential", "community"],
   },
@@ -293,7 +293,7 @@ resources: [
     title: "Proof School",
     category: "schools",
     description:
-      "A math-centered school with a strong peer culture and room for advanced placement.",
+      "A math-centered school in San Francisco with a strong peer culture and room for advanced placement.",
     link: "https://www.proofschool.org/",
     tags: ["schools", "middle school", "high school", "community"],
   },
@@ -301,7 +301,7 @@ resources: [
     title: "Helios School",
     category: "schools",
     description:
-      "A school option for families looking for a different academic fit.",
+      "An independent school for gifted learners in the Bay Area for families looking for a different academic fit.",
     link: "https://www.heliosschool.org/",
     tags: ["schools", "elementary school", "middle school", "community"],
   },
