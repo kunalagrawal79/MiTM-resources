@@ -80,6 +80,10 @@ body::before {
   animation: lift-in 520ms ease-out both;
 }
 
+.hero-single {
+  grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.8fr);
+}
+
 .hero-copy h1,
 .section-heading h2,
 .resource-card h3,
@@ -415,6 +419,13 @@ main {
   margin-top: 18px;
 }
 
+.suggestion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
 .resource-card {
   padding: 18px;
   animation: fade-up 420ms ease both;
@@ -468,6 +479,32 @@ main {
 
 .card-description {
   margin: 12px 0 0;
+}
+
+.inline-link {
+  color: var(--accent-strong);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.inline-link:hover {
+  text-decoration: underline;
+}
+
+.guidance-list {
+  margin: 20px 0 0;
+  padding-left: 20px;
+  color: var(--ink-soft);
+  line-height: 1.8;
+}
+
+.cta-section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.cta-heading {
+  align-items: center;
 }
 
 .tag-list {
