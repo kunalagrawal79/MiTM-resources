@@ -122,6 +122,14 @@ resources: [
     tags: ["camps", "middle school", "high school", "residential", "community"],
   },
   {
+    title: "Lemma Camp",
+    category: "camps",
+    description:
+      "A one-week summer day program at Proof School in downtown San Francisco for rising 4th-9th graders who want a mathematically rich environment and like-minded peers.",
+    link: "https://camplemma.org/",
+    tags: ["camps", "elementary school", "middle school", "high school", "community"],
+  },
+  {
     title: "SUMaC",
     category: "camps",
     description:
@@ -207,7 +215,15 @@ resources: [
     description:
       "A central hub for online classes, textbooks, forums, and competition-oriented study.",
     link: "https://artofproblemsolving.com/",
-    tags: ["programs", "middle school", "high school", "online", "competition-prep", "community"],
+    tags: ["programs", "elementary school", "middle school", "high school", "online", "competition-prep", "community"],
+  },
+  {
+    title: "Beast Academy",
+    category: "programs",
+    description:
+      "Art of Problem Solving's elementary-school program, with comic-style books, self-paced online lessons, and live classes for younger problem solvers.",
+    link: "https://beastacademy.com/",
+    tags: ["programs", "elementary school", "online", "self-paced", "community"],
   },
   {
     title: "GeodeMath",
