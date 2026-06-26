@@ -59,6 +59,21 @@ https://YOUR-USERNAME.github.io/YOUR-REPO/
 
 Because this site uses relative paths, it will work as either a user page or a project page.
 
+## Suggesting Changes
+
+Suggestions do not need to come through GitHub pull requests.
+
+If you want to recommend a resource, the simplest option is to send a message with:
+
+- resource name
+- link
+- age group
+- short description
+
+If you are comfortable with GitHub, you can also open a pull request that updates `resources.js`.
+
+Pull requests are welcome, but they are optional. Resources are curated before being added.
+
 ## Curation Notes
 
 - Linked resources are official sites where I could verify a usable current URL.
