@@ -493,6 +493,30 @@ resources: [
     tags: ["books", "high school", "parents", "educators", "all levels"],
   },
   {
+    title: "Visual Differential Geometry and Forms",
+    category: "books",
+    description:
+      "A Tristan Needham book that builds differential geometry visually and conceptually, with a strong emphasis on geometric intuition.",
+    link: "https://www.vdgf.space/",
+    tags: ["books", "high school", "college", "parents", "educators"],
+  },
+  {
+    title: "Visual Complex Analysis",
+    category: "books",
+    description:
+      "A Tristan Needham book known for its geometric and visual treatment of complex analysis.",
+    link: "https://usf.usfca.edu/vca/",
+    tags: ["books", "high school", "college", "parents", "educators"],
+  },
+  {
+    title: "The Mathematical Omnibus",
+    category: "books",
+    description:
+      "A collection of classic-style essays and expository pieces that fits well with the spirit of math circle reading.",
+    link: null,
+    tags: ["books", "middle school", "high school", "parents", "educators"],
+  },
+  {
     title: "Math with Bad Drawings",
     category: "books",
     description:
