@@ -106,6 +106,22 @@ resources: [
     tags: ["camps", "high school", "residential", "proof-based", "community"],
   },
   {
+    title: "MathILy-er",
+    category: "camps",
+    description:
+      "A five-week residential summer program at Bryn Mawr College for mathematically excellent secondary students who are slightly earlier in their development than the main MathILy cohort.",
+    link: "https://mathily.org/mathilyer/",
+    tags: ["camps", "middle school", "high school", "residential", "proof-based", "community"],
+  },
+  {
+    title: "MathILy-EST",
+    category: "camps",
+    description:
+      "An eight-week intensive summer research experience at Bryn Mawr College for exceptional first-year college students interested in early mathematical research.",
+    link: "https://mathily.org/mathilyest/",
+    tags: ["camps", "college", "residential", "proof-based", "community"],
+  },
+  {
     title: "AwesomeMath Summer Program",
     category: "camps",
     description:
@@ -274,6 +290,14 @@ resources: [
     tags: ["programs", "middle school", "high school", "online", "community"],
   },
   {
+    title: "UMTYMP",
+    category: "programs",
+    description:
+      "The University of Minnesota Talented Youth Mathematics Program, an accelerated multi-year program with in-person Twin Cities instruction and online options for greater Minnesota students.",
+    link: "https://cse.umn.edu/mathcep/university-minnesota-talented-youth-mathematics-program-umtymp",
+    tags: ["programs", "middle school", "high school", "online", "community"],
+  },
+  {
     title: "Khan Academy",
     category: "programs",
     description:
@@ -336,6 +360,14 @@ resources: [
       "Known for the Exploding Dots curriculum and visual, highly accessible mathematical storytelling.",
     link: "https://globalmathproject.org/",
     tags: ["programs", "elementary school", "middle school", "high school", "community"],
+  },
+  {
+    title: "AlphaStar Academy Camps",
+    category: "camps",
+    description:
+      "Online and Bay Area summer camps focused on rigorous competition preparation in subjects such as AMC, AIME, and USACO.",
+    link: "https://alphastar.academy/summer-camps/",
+    tags: ["camps", "middle school", "high school", "online", "competition-prep", "community"],
   },
   {
     title: "Proof School",
