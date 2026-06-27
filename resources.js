@@ -218,6 +218,14 @@ resources: [
     tags: ["competitions", "middle school", "high school", "proof-based"],
   },
   {
+    title: "Omega Math",
+    category: "competitions",
+    description:
+      "A newer contest that emphasizes longer-form solutions and mathematical explanation over speed.",
+    link: null,
+    tags: ["competitions", "middle school", "high school", "proof-based"],
+  },
+  {
     title: "MathCON",
     category: "competitions",
     description:
