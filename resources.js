@@ -449,7 +449,7 @@ resources: [
     category: "books",
     description:
       "Paul Lockhart's widely discussed critique of school math, written for readers interested in mathematical beauty, play, and better ways of teaching.",
-    link: null,
+    link: "https://en.wikipedia.org/wiki/A_Mathematician%27s_Lament",
     tags: ["books", "high school", "parents", "educators", "all levels"],
   },
   {
