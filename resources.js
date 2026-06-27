@@ -122,6 +122,30 @@ resources: [
     tags: ["camps", "middle school", "high school", "residential", "community"],
   },
   {
+    title: "National Math Camps",
+    category: "camps",
+    description:
+      "An organization running two-week residential summer math camps in multiple U.S. locations for mathematically talented students ages 11-14.",
+    link: "https://nationalmathcamps.org/",
+    tags: ["camps", "middle school", "high school", "residential", "community"],
+  },
+  {
+    title: "Camp Conway",
+    category: "camps",
+    description:
+      "A two-week residential camp at Harvey Mudd College in Claremont, California, for students ages 11-14 who want deep mathematical exploration and a strong camp community.",
+    link: "https://nationalmathcamps.org/camp-conway/",
+    tags: ["camps", "middle school", "high school", "residential", "community"],
+  },
+  {
+    title: "Camp Sierpinski",
+    category: "camps",
+    description:
+      "A two-week residential camp at William Peace University in Raleigh, North Carolina, for students ages 11-14 who want immersive mathematical exploration and community.",
+    link: "https://nationalmathcamps.org/camp-sierpinski/",
+    tags: ["camps", "middle school", "high school", "residential", "community"],
+  },
+  {
     title: "Lemma Camp",
     category: "camps",
     description:
