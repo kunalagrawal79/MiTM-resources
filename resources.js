@@ -307,11 +307,11 @@ resources: [
   },
   {
     title: "University of Chicago Young Scholars Program",
-    category: "programs",
+    category: "camps",
     description:
-      "A long-running University of Chicago-affiliated enrichment program for mathematically talented Chicago-area students in middle and high school.",
-    link: null,
-    tags: ["programs", "middle school", "high school", "community"],
+      "A University of Chicago summer program for mathematically talented Chicago-area students in middle and high school.",
+    link: "https://mathematics.uchicago.edu/young-scholars-program/",
+    tags: ["camps", "middle school", "high school", "community"],
   },
   {
     title: "Khan Academy",
