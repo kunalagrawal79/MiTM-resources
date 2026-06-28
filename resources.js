@@ -186,7 +186,7 @@ resources: [
     tags: ["camps", "high school", "residential", "community"],
   },
   {
-    title: "CTY Maryland Camps",
+    title: "CTY Camps (Maryland)",
     category: "camps",
     description:
       "Johns Hopkins CTY runs Maryland in-person programs including day sites in Baltimore and Bethesda for grades 2-8 and a residential program in Baltimore for grades 5-12.",
