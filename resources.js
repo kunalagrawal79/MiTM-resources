@@ -186,6 +186,14 @@ resources: [
     tags: ["camps", "high school", "residential", "community"],
   },
   {
+    title: "CTY Maryland Camps",
+    category: "camps",
+    description:
+      "Johns Hopkins CTY runs Maryland in-person programs including day sites in Baltimore and Bethesda for grades 2-8 and a residential program in Baltimore for grades 5-12.",
+    link: "https://cty.jhu.edu/cty-experience/day",
+    tags: ["camps", "elementary school", "middle school", "high school", "residential", "community"],
+  },
+  {
     title: "Math Kangaroo",
     category: "competitions",
     description:
@@ -328,6 +336,14 @@ resources: [
       "Topic-based online circles that let students choose specific mathematical themes.",
     link: "https://www.theglobalmathcircle.org/",
     tags: ["communities", "middle school", "high school", "online", "community"],
+  },
+  {
+    title: "Cambridge Math Circle",
+    category: "communities",
+    description:
+      "A Cambridge and Greater Boston math circle offering enrichment classes, summer programs, and events for students in grades 1-8.",
+    link: "https://www.cambridgemathcircle.org/",
+    tags: ["communities", "elementary school", "middle school", "community"],
   },
   {
     title: "Russian School of Math",
