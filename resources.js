@@ -742,6 +742,14 @@ resources: [
     tags: ["books", "parents", "educators", "all levels", "online"],
   },
   {
+    title: "Euler Book Prize",
+    category: "books",
+    description:
+      "The MAA's annual Euler Book Prize page, useful for browsing award-winning math books and past recipients.",
+    link: "https://maa.org/euler-book-prize/",
+    tags: ["books", "parents", "educators", "all levels", "online"],
+  },
+  {
     title: "The Phantom Tollbooth",
     category: "books",
     description:
